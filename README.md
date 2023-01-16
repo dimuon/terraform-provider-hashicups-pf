@@ -6,7 +6,7 @@ if a schema contains a `Computed` nested attribute and one of the attibutes of t
 then `terraform plan` is always dirty, even if the configuration hasn't changed.
 
 The repo is a modified version of [Terraform Hashicups example](https://github.com/hashicorp/terraform-provider-hashicups-pf).
-The only diff from the vanilla `hashicups` example is setting `Computed` and `Optional` fields of `coffee` attribute in `order` [resource](hashicups/order_resource.go#L91)
+The only diff from the vanilla `hashicups` example is setting `Computed` and `Optional` fields of `coffee` attribute in `order` [resource](hashicups/order_resource.go#L91).
 
 ## Reproducing the issue
 
